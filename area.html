@@ -33,23 +33,10 @@
 
 <div id="mydivheader"><button id="mydivheader">hello there</button></div>
 
-<button id="mydivheader">hello there v2</button>
-<button id="btn">plea work!1</button>
+<div id="mydiv"><button id="mydiv">hello there v2</button></div>
 
 
 <script>
-
-var btn = document.getElementById("btn");
-function drag(e) {
-  btn.style.transform = `translate(${e.pageX - 20}px, ${e.pageY - 20}px)`;
-}
-btn.addEventListener("mousedown", () =>
-  document.addEventListener("mousemove", drag)
-);
-btn.addEventListener("mouseup", () =>
-  document.removeEventListener("mousemove", drag)
-);
-
 //Make the DIV element draggagle:
 dragElement(document.getElementById("mydiv"));
 
