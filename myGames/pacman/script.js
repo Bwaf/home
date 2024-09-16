@@ -4,8 +4,14 @@ var ctx = canvas.getContext("2d");
 ctx.fillText("Hello, World!!!",10,150);
 */
 var canvas = document.createElement("canvas");
-var ctx = canvas.getContext("2d");
+var context = canvas.getContext("2d");
 canvas.height = 400;
 canvas.width = 600;
+
+mainImage = new Image();
+mainImage.ready = false;
+mainImage.onload = checkReady;
+mainImage.src = "pac.png";
+
 document.body.appendChild(canvas);
-ctx.fillText("Hello, World!!!",10,150);
+context.fillText("Hello, World!!!",10,150);
