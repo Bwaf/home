@@ -11,6 +11,11 @@ canvas.width = 600;
 mainImage = new Image();
 mainImage.ready = false;
 mainImage.onload = checkReady;
+//this is some code that I cant do anything with
+//because I dont have the image file for the pacman pixel art
+// \/\/\/\/\/\/\/\/\/\/\/\/
+mainImage.src = "pac.png";
+///\/\/\/\/\/\/\/\/\/\/\/\
 
 function checkReady() {
     this.ready = true;
@@ -23,7 +28,7 @@ function playGame() {
 
 function render() {
     context.fillStyle = "black";
-    context.fillRect(0,0,canvas.width,canvas.height);
+    context.fillRect(0,0,canvas.width, canvas.height);
 }
 
 
