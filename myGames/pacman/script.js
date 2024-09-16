@@ -13,5 +13,10 @@ mainImage.ready = false;
 mainImage.onload = checkReady;
 mainImage.src = "pac.png";
 
+function checkReady() {
+    this.ready = true;
+    playGame();
+}
+
 document.body.appendChild(canvas);
 context.fillText("Hello, World!!!",10,150);
