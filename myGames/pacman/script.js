@@ -23,7 +23,7 @@ function playGame() {
 }
 
 function render() {
-    context.fillstyle = 'black';
+    context.fillStyle = "black";
     context.fillRect(0,0,canvas.width, canvas.height);
 }
 
