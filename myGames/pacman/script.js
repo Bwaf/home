@@ -18,5 +18,16 @@ function checkReady() {
     playGame();
 }
 
+function playGame() {
+    render();
+}
+
+function render() {
+    context.fillstyle = "black";
+    context.fillRect(0,0,canvas.width, canvas.height);
+}
+
+
+
 document.body.appendChild(canvas);
 context.fillText("Hello, World!!!",10,150);
