@@ -8,14 +8,11 @@ var context = canvas.getContext("2d");
 canvas.height = 400;
 canvas.width = 600;
 
+
 mainImage = new Image();
 mainImage.ready = false;
 mainImage.onload = checkReady;
-//this is some code that I cant do anything with
-//because I dont have the image file for the pacman pixel art
-// \/\/\/\/\/\/\/\/\/\/\/\/
 mainImage.src = "pac.png";
-///\/\/\/\/\/\/\/\/\/\/\/\
 
 function checkReady() {
     this.ready = true;
