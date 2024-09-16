@@ -11,7 +11,6 @@ canvas.width = 600;
 mainImage = new Image();
 mainImage.ready = false;
 mainImage.onload = checkReady;
-mainImage.src = "pac.png";
 
 function checkReady() {
     this.ready = true;
@@ -24,7 +23,7 @@ function playGame() {
 
 function render() {
     context.fillStyle = "black";
-    context.fillRect(0,0,canvas.width, canvas.height);
+    context.fillRect(0,0,canvas.width,canvas.height);
 }
 
 
