@@ -26,7 +26,7 @@ function playGame() {
 function render() {
     context.fillStyle = "blue";
     context.fillRect(0,0,canvas.width, canvas.height);
-    context.drawImage(mainImage, 10, 10);
+    context.drawImage(mainImage, 15, 15);
 }
 
 
