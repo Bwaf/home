@@ -26,7 +26,8 @@ function playGame() {
 function render() {
     context.fillStyle = "blue";
     context.fillRect(0,0,canvas.width, canvas.height);
-    context.drawImage(mainImage, 320, 0, 32, 32, 40, 40, 50, 50);
+    //this is the original numbers = 320,0,32,32,0,0,50,50
+    context.drawImage(mainImage, 320, 0, 32, 32, 0, 0, 50, 50);
 }
 
 
