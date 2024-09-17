@@ -33,4 +33,4 @@ function render() {
 
 
 document.body.appendChild(canvas);
-context.fillText("Hello, World!!!",10,150);
+//context.fillText("Hello, World!!!",10,150);
