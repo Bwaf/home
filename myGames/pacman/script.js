@@ -12,6 +12,7 @@ canvas.width = 600;
 mainImage = new Image();
 mainImage.ready = false;
 mainImage.onload = checkReady;
+//pac.png is width 890px, and the height is 256px
 mainImage.src = "pac.png";
 
 function checkReady() {
