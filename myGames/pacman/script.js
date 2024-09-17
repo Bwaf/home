@@ -28,7 +28,7 @@ function render() {
     context.fillStyle = "blue";
     context.fillRect(0,0,canvas.width, canvas.height);
     //this is the original numbers = (320 left and right,0 up and down, 32,32,0,0,(50,50)these two are to resize)
-    context.drawImage(mainImage, 720,0,32,32,0,10,50,50);
+    context.drawImage(mainImage, 700,0,32,32,0,10,50,50);
 }
 
 
