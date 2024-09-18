@@ -27,8 +27,8 @@ function playGame() {
 function render() {
     context.fillStyle = "blue";
     context.fillRect(0,0,canvas.width, canvas.height);
-    //this is the original numbers = (320 left and right,0 up and down, 32,32,0,0,(50,50)these two are to resize)
-    context.drawImage(mainImage, 650,10,320,500,0,10,50,50);
+    //this is the original numbers = (320 left and right, 0 up and down, 32 height,32 width, 0 , 0 , (50,50)these two are to resize)
+    context.drawImage(mainImage, 650,10,64,64,0,10,50,50);
 }
 
 
